@@ -75,7 +75,6 @@ public class ObjectManager {
                 if(c.getHitBox().intersects(hitbox)){
                     c.setAnimation(true);
                     items.add(new Heart((int) (c.getHitBox().x+c.getHitBox().width/4),(int) (c.getHitBox().y+c.getHitBox().height/4),2));
-                    System.out.println("what");
                 }
             }
         }
